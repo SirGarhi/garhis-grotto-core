@@ -1,0 +1,8 @@
+2024/08/24-01:40:42.691 50c64 Recovering log #236
+2024/08/24-01:40:42.695 50c64 Delete type=0 #236
+2024/08/24-01:40:42.695 50c64 Delete type=3 #232
+2024/08/24-23:36:00.084 4f030 Level-0 table #245: started
+2024/08/24-23:36:00.084 4f030 Level-0 table #245: 0 bytes OK
+2024/08/24-23:36:00.096 4f030 Delete type=0 #243
+2024/08/24-23:36:00.123 4f030 Manual compaction at level-0 from '!folders!1DLeyrz2pvDU82mn' @ 72057594037927935 : 1 .. '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 0 : 0; will stop at (end)
+2024/08/24-23:36:00.124 4f030 Manual compaction at level-1 from '!folders!1DLeyrz2pvDU82mn' @ 72057594037927935 : 1 .. '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 0 : 0; will stop at (end)

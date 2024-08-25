@@ -1,0 +1,8 @@
+2024/08/23-19:50:00.220 4451c Recovering log #130
+2024/08/23-19:50:00.225 4451c Delete type=0 #130
+2024/08/23-19:50:00.225 4451c Delete type=3 #128
+2024/08/24-01:39:57.304 4f030 Level-0 table #135: started
+2024/08/24-01:39:57.304 4f030 Level-0 table #135: 0 bytes OK
+2024/08/24-01:39:57.307 4f030 Delete type=0 #133
+2024/08/24-01:39:57.314 4f030 Manual compaction at level-0 from '!actors!ddbSumArcaHanBlu' @ 72057594037927935 : 1 .. '!folders!VrA4kxUB5YY7ddys' @ 0 : 0; will stop at (end)
+2024/08/24-01:39:57.314 4f030 Manual compaction at level-1 from '!actors!ddbSumArcaHanBlu' @ 72057594037927935 : 1 .. '!folders!VrA4kxUB5YY7ddys' @ 0 : 0; will stop at (end)

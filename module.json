@@ -1,0 +1,1181 @@
+{
+	"id": "garhis-grotto-mmodule",
+	"title": "Garhi's Grotto",
+	"description": "A significant overhaul to several parts of the DnD 5e system, as well as multiple compendiums of character options and magic items.",
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "12",
+		"verified": "12"
+	},
+	"authors": [
+		{
+			"name": "Garhi",
+			"email": "garhi@garhisgrotto.com",
+			"url": "http://www.garhisgrotto.com",
+			"discord": "garhi",
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"name": "gg-actor-creature",
+			"label": "GG - Creatures",
+			"path": "packs/actor-creature",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"npc"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-actor-adversary",
+			"label": "GG - Adversaries",
+			"path": "packs/actor-adversary",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"npc"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-actor-character",
+			"label": "GG - Characters",
+			"path": "packs/actor-character",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"npc"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-actor-summon",
+			"label": "GG - Summons",
+			"path": "packs/actor-summon",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"npc"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-feature-creature",
+			"label": "GG - Creature Features",
+			"path": "packs/feature-creature",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-override-cpr",
+			"label": "GG - CPR Override",
+			"path": "packs/override-cpr",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"spell",
+						"feat"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-common",
+			"label": "GG - Common Items",
+			"path": "packs/item-common",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"container"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-mundane",
+			"label": "GG - Mundane Items",
+			"path": "packs/item-mundane",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"container"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-magic-armor",
+			"label": "GG - Armor & Clothing",
+			"path": "packs/item-magic-armor",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"equipment"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-magic-weapon",
+			"label": "GG - Weapons",
+			"path": "packs/item-magic-weapon",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-magic-worn",
+			"label": "GG - Worn Items",
+			"path": "packs/item-magic-worn",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"equipment"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-magic-consumable",
+			"label": "GG - Consumables",
+			"path": "packs/item-magic-consumable",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"consumable"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-magic-trinket",
+			"label": "GG - Wondrous Items",
+			"path": "packs/item-magic-trinket",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"container"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-magic-tool",
+			"label": "GG - Tools & Implements",
+			"path": "packs/item-magic-tool",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"equipment",
+						"tool"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-feature-item",
+			"label": "GG - Item Features",
+			"path": "packs/feature-item",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-spell-spectacular",
+			"label": "GG - Spectacular Spells",
+			"path": "packs/spell-spectacular",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"spell"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-spell",
+			"label": "GG - Spells",
+			"path": "packs/spell",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"spell"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-feature-spell",
+			"label": "GG - Spell Features",
+			"path": "packs/feature-spell",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-feature-action",
+			"label": "GG - Actions",
+			"path": "packs/feature-action",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-feature-feat",
+			"label": "GG - Feats",
+			"path": "packs/feature-feat",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"feat"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-subclass",
+			"label": "GG - Subclasses",
+			"path": "packs/subclass",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"subclass",
+						"feat",
+						"class"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-feature-subclass",
+			"label": "GG - Subclass Features",
+			"path": "packs/feature-subclass",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"subclass",
+						"feat"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-class",
+			"label": "GG - Classes",
+			"path": "packs/class",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"feat",
+						"class"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-feature-class",
+			"label": "GG - Class-Features",
+			"path": "packs/feature-class",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"feat",
+						"class"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-ancestry",
+			"label": "GG - Ancestries",
+			"path": "packs/ancestry",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"feat",
+						"race"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-feature-ancestry",
+			"label": "GG - Ancestral Traits",
+			"path": "packs/feature-ancestry",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"feat",
+						"race"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-feature-upbringing",
+			"label": "GG - Upbringing Traits",
+			"path": "packs/feature-upbringing",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"feat"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-journal-book",
+			"label": "GG - Books",
+			"path": "packs/journal-book",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-journal-note",
+			"label": "GG - Notes",
+			"path": "packs/journal-note",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-journal-lore",
+			"label": "GG - Lore",
+			"path": "packs/journal-lore",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-journal-generic",
+			"label": "GG - Journals",
+			"path": "packs/journal-generic",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-journal-story",
+			"label": "GG - Story Generation",
+			"path": "packs/journal-story",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-journal-rule",
+			"label": "GG - House Rules",
+			"path": "packs/journal-rule",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-table-specialized",
+			"label": "GG - Specialized Tables",
+			"path": "packs/table-specialized",
+			"type": "RollTable",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-table-generic",
+			"label": "GG - Generic Tables",
+			"path": "packs/table-generic",
+			"type": "RollTable",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-table-story",
+			"label": "GG - Story Generators",
+			"path": "packs/table-story",
+			"type": "RollTable",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-table-loot",
+			"label": "GG - Loot Tables",
+			"path": "packs/table-loot",
+			"type": "RollTable",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-macro-utility",
+			"label": "GG - Macros - Utility",
+			"path": "packs/macro-utility",
+			"type": "Macro",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-macro-worldbuilding",
+			"label": "GG - Macros - Worldbuilding",
+			"path": "packs/macro-worldbuilding",
+			"type": "Macro",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-playlist-generic",
+			"label": "GG - Generic Playlists",
+			"path": "packs/playlist-generic",
+			"type": "Playlist",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-adventure-generic",
+			"label": "GG - Adventures",
+			"path": "packs/adventure-generic",
+			"type": "Adventure",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-backup-actor",
+			"label": "GG - Character Backups",
+			"path": "packs/backup-actor",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-backup-item",
+			"label": "GG - Item Backups",
+			"path": "packs/backup-item",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-backup-journal",
+			"label": "GG - Journal Backups",
+			"path": "packs/backup-journal",
+			"type": "JournalEntry",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-backup-scene",
+			"label": "GG - Scene Backups",
+			"path": "packs/backup-scene",
+			"type": "Scene",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-backup-table",
+			"label": "GG - Roll Table Backups",
+			"path": "packs/backup-table",
+			"type": "RollTable",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-test-actor",
+			"label": "GG - Test Actors",
+			"path": "packs/test-actor",
+			"type": "Actor",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"npc"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-test-item",
+			"label": "GG - Test Items|Spells|Features",
+			"path": "packs/test-item",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"container",
+						"spell",
+						"feat"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-test-macro",
+			"label": "GG - Test - Macros",
+			"path": "packs/test-macro",
+			"type": "Macro",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "gg-test-scene",
+			"label": "GG - Testing Maps",
+			"path": "packs/test-scene",
+			"type": "Scene",
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {
+				"dnd5e": {
+					"types": [
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-griffons-saddlebag",
+			"label": "Items-Griffons-Saddlebag",
+			"path": "packs/compilation-item-griffons-saddlebag",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"container"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-loot-tavern",
+			"label": "Items-Loot-Tavern",
+			"path": "packs/compilation-item-loot-tavern",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"container"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-abyssal-brews",
+			"label": "Items-Abyssal-Brews",
+			"path": "packs/compilation-item-abyssal-brews",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"container"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-item-kibbles-tasty",
+			"label": "Items-Kibbles-Tasty",
+			"path": "packs/compilation-item-kibbles-tasty",
+			"type": "Item",
+			"system": "dnd5e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {
+				"dnd5e": {
+					"types": [
+						"weapon",
+						"equipment",
+						"consumable",
+						"tool",
+						"loot",
+						"container"
+					]
+				}
+			}
+		},
+		{
+			"name": "gg-background",
+			"label": "GG - Backgrounds",
+			"path": "packs/background",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {
+				"dnd5e": {
+					"types": [
+					]
+				}
+			}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "Garhi's Grotto",
+			"sorting": "m",
+			"color": "#8965E6",
+			"packs": [],
+			"folders": [
+				{
+					"name": "GG - Creatures",
+					"sorting": "m",
+					"color": "#7877e7",
+					"packs": [
+						"gg-actor-creature",
+						"gg-actor-character",
+						"gg-actor-adversary",
+						"gg-actor-summon",
+						"gg-feature-creature"
+					],
+					"folders": []
+				},
+				{
+					"name": "GG - Items",
+					"sorting": "m",
+					"color": "#656AE6",
+					"packs": [
+						"gg-item-mundane",
+						"gg-item-common",
+						"gg-item-magic-armor",
+						"gg-item-magic-weapon",
+						"gg-item-magic-worn",
+						"gg-item-magic-consumable",
+						"gg-item-magic-trinket",
+						"gg-item-magic-tool",
+						"gg-feature-item"
+					],
+					"folders": [
+						{
+							"name": "GG - Item Compilations",
+							"sorting": "m",
+							"color": "#5156D6",
+							"packs": [
+								"gg-item-griffons-saddlebag",
+								"gg-item-loot-tavern",
+								"gg-item-abyssal-brews",
+								"gg-item-kibbles-tasty"
+							],
+							"folders": []
+						}
+					]
+				},
+				{
+					"name": "GG - Character Options",
+					"sorting": "m",
+					"color": "#B365E6",
+					"packs": [
+						"gg-ancestry",
+						"gg-feature-ancestry",
+						"gg-feature-upbringing",
+						"gg-class",
+						"gg-subclass",
+						"gg-feature-class",
+						"gg-feature-subclass",
+						"gg-feature-feat",
+						"gg-feature-action"
+					],
+					"folders": [
+						{
+							"name": "GG - Spells",
+							"sorting": "m",
+							"color": "#9260B3",
+							"packs": [
+								"gg-spell",
+								"gg-spell-spectacular",
+								"gg-feature-spell"
+							],
+							"folders": []
+						}
+					]
+				},
+				{
+					"name": "GG - Journals & Tables",
+					"sorting": "m",
+					"color": "#6594E6",
+					"packs": [
+						"gg-journal-note",
+						"gg-journal-generic",
+						"gg-table-loot",
+						"gg-table-specialized",
+						"gg-table-generic"
+					],
+					"folders": [
+						{
+							"name": "Reference",
+							"sorting": "m",
+							"color": "#4668A3",
+							"packs": [
+								"gg-journal-book",
+								"gg-journal-lore",
+								"gg-journal-rule",
+								"gg-adventure-generic"
+							],
+							"folders": []
+						},
+						{
+							"name": "Story Generation",
+							"sorting": "m",
+							"color": "#C0B1E6",
+							"packs": [
+								"gg-journal-story",
+								"gg-table-story"
+							],
+							"folders": []
+						}
+					]
+				},
+				{
+					"name": "GG - Utility",
+					"sorting": "m",
+					"color": "#65C7E6",
+					"packs": [
+						"gg-macro-utility",
+						"gg-macro-worldbuilding",
+						"gg-override-cpr",
+						"gg-playlist-generic"
+					],
+					"folders": [
+						{
+							"name": "Backups",
+							"sorting": "m",
+							"color": "#366A7A",
+							"packs": [
+								"gg-backup-actor",
+								"gg-backup-item",
+								"gg-backup-journal",
+								"gg-backup-table",
+								"gg-backup-scene"
+							],
+							"folders": []
+						},
+						{
+							"name": "Testing",
+							"sorting": "m",
+							"color": "#366A7A",
+							"packs": [
+								"gg-test-actor",
+								"gg-test-item",
+								"gg-test-scene"
+							],
+							"folders": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "_Hidden",
+			"sorting": "m",
+			"color": "#65C7E6",
+			"packs": [
+					"mmmm",
+					"mmmj",
+					"mcdm-the-beastheart",
+					"maps"
+			],
+			"folders": [
+				{
+					"name": "Macros",
+					"sorting": "m",
+					"color": "#366A7A",
+					"packs": [
+						"wild-magic-surge-5e",
+						"wall-height-macros",
+						"tokenmagic-automatic-wounds-macros",
+						"shuggaloafs-sng-macros",
+						"rideable",
+						"perceptive",
+						"meSampleMacros",
+						"moulinette-macros",
+						"active-tile-macros",
+						"mcdm-beastheart-macros",
+						"levelsmacros",
+						"jb2a-sequencer",
+						"item-piles-macros",
+						"fxmaster",
+						"conversation-hud-macro-pack",
+						"autocovermacros"
+					],
+					"folders": []
+				},
+				{
+					"name": "Sample Packs",
+					"sorting": "m",
+					"color": "#366A7A",
+					"packs": [
+						"tmMacros",
+						"tmSampleCompendium",
+						"midiqol-sample-items",
+						"mmmi",
+						"mcdm-beastheart-content",
+						"mcdm-beastheart-companions",
+						"jb2a-actors",
+						"item-piles-merchant-tables",
+						"item-piles-custom-items"
+					],
+					"folders": []
+				}
+			]
+		}
+	],
+	"relationships": {
+		"recommends": [
+			{
+				"id": "dae",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "midi-qol",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "chris-premades",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "garhis-grotto-character-paths",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "garhis-grotto-crafting",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "garhis-grotto-maps",
+				"type": "module",
+				"compatibility": {}
+			}
+		],
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "3.0.0",
+					"verified": "3.3.1",
+					"maximum": "3.9.9"
+				}
+			}
+		],
+		"requires": []
+	},
+
+	"esmodules": [
+		"scripts/gg-main.mjs"
+	],
+	"styles": [
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json",
+			"flags": {}
+		}
+	],
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/garhis-grotto-module/assets/art/branding/garhis-grotto-logo.webp",
+			"loop": false,
+			"flags": {}
+		}
+	],
+	"flags": {
+		"hotReload": {
+			"extensions": ["css", "hbs", "json"],
+			"paths": ["templates", "styles", "lang"]
+		}
+	},
+	"readme": "",
+	"changelog": "",
+	"url": "",
+	"bugs": "",
+	"manifest": "",
+	"download": ""
+}

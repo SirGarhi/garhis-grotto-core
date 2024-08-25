@@ -1,2 +1,2 @@
 # garhis-grotto-module
- Main module for Garhi's Grotto
+Foundry VTT Module containing main rules changes and content.

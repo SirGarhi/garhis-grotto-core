@@ -1,0 +1,29 @@
+2024/08/23-19:50:00.381 51f34 Recovering log #230
+2024/08/23-19:50:00.385 51f34 Delete type=0 #230
+2024/08/23-19:50:00.385 51f34 Delete type=3 #228
+2024/08/24-01:12:07.411 4f030 Level-0 table #235: started
+2024/08/24-01:12:07.426 4f030 Level-0 table #235: 2208479 bytes OK
+2024/08/24-01:12:07.428 4f030 Delete type=0 #233
+2024/08/24-01:39:57.411 4f030 Level-0 table #237: started
+2024/08/24-01:39:57.414 4f030 Level-0 table #237: 284931 bytes OK
+2024/08/24-01:39:57.416 4f030 Delete type=0 #234
+2024/08/24-01:39:57.420 4f030 Manual compaction at level-0 from '!folders!1DLeyrz2pvDU82mn' @ 72057594037927935 : 1 .. '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 0 : 0; will stop at '!journal.pages!zsQUtxtM3ptjophY.gn44i3VpaevliHEy' @ 1846 : 1
+2024/08/24-01:39:57.420 4f030 Compacting 1@0 + 1@1 files
+2024/08/24-01:39:57.440 4f030 Generated table #238@0: 1060 keys, 2113613 bytes
+2024/08/24-01:39:57.444 4f030 Generated table #239@0: 114 keys, 345497 bytes
+2024/08/24-01:39:57.444 4f030 Compacted 1@0 + 1@1 files => 2459110 bytes
+2024/08/24-01:39:57.445 4f030 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/24-01:39:57.445 4f030 Delete type=2 #235
+2024/08/24-01:39:57.446 4f030 Delete type=2 #237
+2024/08/24-01:39:57.450 4f030 Manual compaction at level-0 from '!journal.pages!zsQUtxtM3ptjophY.gn44i3VpaevliHEy' @ 1846 : 1 .. '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 0 : 0; will stop at (end)
+2024/08/24-01:39:57.455 4f030 Expanding@1 1+1 (2113613+1617201 bytes) to 2+1 (2459110+1617201 bytes)
+2024/08/24-01:39:57.455 4f030 Manual compaction at level-1 from '!folders!1DLeyrz2pvDU82mn' @ 72057594037927935 : 1 .. '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 0 : 0; will stop at '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 1225 : 1
+2024/08/24-01:39:57.455 4f030 Compacting 2@1 + 1@2 files
+2024/08/24-01:39:57.473 4f030 Generated table #240@1: 842 keys, 2119659 bytes
+2024/08/24-01:39:57.489 4f030 Generated table #241@1: 618 keys, 1955300 bytes
+2024/08/24-01:39:57.489 4f030 Compacted 2@1 + 1@2 files => 4074959 bytes
+2024/08/24-01:39:57.490 4f030 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/08/24-01:39:57.490 4f030 Delete type=2 #107
+2024/08/24-01:39:57.490 4f030 Delete type=2 #238
+2024/08/24-01:39:57.490 4f030 Delete type=2 #239
+2024/08/24-01:39:57.493 4f030 Manual compaction at level-1 from '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 1225 : 1 .. '!journal.pages!zzzUPUQvAZYjlA9x.VvVt9zx2uaY1ShDE' @ 0 : 0; will stop at (end)

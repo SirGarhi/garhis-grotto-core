@@ -1,0 +1,25 @@
+{
+    "DND5E": {
+      "Feature.Race": "Ancestry Feature",
+      "Race": "Ancestry",
+      "RaceName": "Ancestry Name",
+      "RaceAdd":"Add Ancestry",
+      "RacialTraits": "Ancestral Traits",
+      "ToolArtisans": "Artist's Tools",
+      "DamageThunder": "Sonic",
+      "DamageLightning":"Electric",
+      "ArmorClassDraconic": "Draconic Toughness",
+      "LanguagesStandard": "Trade Language",
+      "FeaturesRace": "Ancestral Features"
+    },
+    "ITEM":{
+      "TypeRace": "Ancestry",
+      "TypeRacePl": "Ancestries"
+    },
+    "TYPES": {
+      "Item": {
+        "race": "Ancestry",
+        "racePl": "Ancestries"
+      }
+    }
+}
