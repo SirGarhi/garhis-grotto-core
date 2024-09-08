@@ -1,0 +1,8 @@
+2024/09/04-23:32:33.817 ec748 Recovering log #216
+2024/09/04-23:32:33.822 ec748 Delete type=0 #216
+2024/09/04-23:32:33.822 ec748 Delete type=3 #214
+2024/09/05-03:38:14.962 ef298 Level-0 table #221: started
+2024/09/05-03:38:14.962 ef298 Level-0 table #221: 0 bytes OK
+2024/09/05-03:38:14.964 ef298 Delete type=0 #219
+2024/09/05-03:38:14.968 ef298 Manual compaction at level-0 from '!items!weK3mRNKP5nuYrBp' @ 72057594037927935 : 1 .. '!items.effects!weK3mRNKP5nuYrBp.v9RypBBSOGa2iaZ5' @ 0 : 0; will stop at (end)
+2024/09/05-03:38:14.968 ef298 Manual compaction at level-1 from '!items!weK3mRNKP5nuYrBp' @ 72057594037927935 : 1 .. '!items.effects!weK3mRNKP5nuYrBp.v9RypBBSOGa2iaZ5' @ 0 : 0; will stop at (end)

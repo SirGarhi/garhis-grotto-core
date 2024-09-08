@@ -1,7 +1,0 @@
-2024/08/24-01:40:42.942 50c64 Recovering log #428
-2024/08/24-01:40:42.947 50c64 Delete type=0 #428
-2024/08/24-01:40:42.947 50c64 Delete type=3 #426
-2024/08/24-23:36:00.133 4f030 Level-0 table #433: started
-2024/08/24-23:36:00.133 4f030 Level-0 table #433: 0 bytes OK
-2024/08/24-23:36:00.136 4f030 Delete type=0 #431
-2024/08/24-23:36:00.138 4f030 Manual compaction at level-0 from '!folders!1bhyc2YxrMBSYHeV' @ 72057594037927935 : 1 .. '!macros!zxmzKo5WfqEs1zhX' @ 0 : 0; will stop at (end)

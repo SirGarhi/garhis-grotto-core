@@ -1,0 +1,268 @@
+/* # Colors
+## Primary Colors
+* Background
+ * #190066
+* Violet
+ * #1F0A66
+* Purple
+ * #5336B3
+
+* Violet
+ * #31136c
+
+## Text Colors
+* Header
+ * #F3F0E7
+* Subheader
+ * #CCC6B7
+* Body
+ * #F3F0E7
+
+## Secondary Colors
+* Pink
+ * #FF00BF
+* Orange
+ * #F26E0C
+* Lilac
+ * #7877E7
+
+ .75=BF
+ .5=80
+ .25=40
+ */
+body.garhis-grotto.colors {
+	/* 	*	*	*	*	*	*	*	*	Begin Variable Definition *	*	*	*	*	*	*	*	* 	*/
+	--gg-theme-background-gradient-primary-bottom-left:
+	linear-gradient(to bottom left,
+		var(--gg-theme-color-background-gradient-primary-1), var(--gg-theme-color-background-gradient-primary-2),
+		var(--gg-theme-color-background-gradient-primary-3), var(--gg-theme-color-background-gradient-primary-3)),
+	var(--gg-theme-texture-background-primary) top left repeat;
+
+
+
+	--gg-theme-background-gradient-primary-right:
+	linear-gradient(to right,
+		var(--gg-theme-color-background-gradient-primary-1), var(--gg-theme-color-background-gradient-primary-2),
+		var(--gg-theme-color-background-gradient-primary-3), var(--gg-theme-color-background-gradient-primary-3)),
+	var(--gg-theme-texture-background-primary) top left repeat;
+
+	--gg-theme-primary-color-shadow-dark: #ccaa00;
+	--gg-theme-primary-color-shadow-light: #ebebd2;
+	--gg-theme-primary-color-shadow-highlight: #ea80ff;
+
+	/* Main Windows & Applications */
+	--gg-theme-background-plain-denim-75: url(../assets/art/textures/denim075.webp);
+	--gg-theme-color-background-gradient-primary-1: #1a0066bf; /* Deep Violet */
+	--gg-theme-color-background-gradient-primary-2: #20004dbf; /* Deep Violet */
+	--gg-theme-color-background-gradient-primary-3: #400d73bf; /* Deep Violet */
+	--gg-theme-color-background-gradient-primary-4: #470a5cbf; /* Magenta */
+	--gg-theme-texture-background-primary: url('../assets/art/texture/parchment.jpg');
+	--gg-theme-background-gradient-primary-bottom-right:
+	linear-gradient(to bottom right,
+		var(--gg-theme-color-background-gradient-primary-1), var(--gg-theme-color-background-gradient-primary-2),
+		var(--gg-theme-color-background-gradient-primary-3), var(--gg-theme-color-background-gradient-primary-3)),
+	var(--gg-theme-texture-background-primary) top left repeat;
+
+	--gg-theme-primary-color-background-overlay: #40009940;
+
+	--gg-theme-primary-color-border-window: #ffd500;
+	--gg-theme-primary-color-border-seperator: #ea80ff;
+
+	--gg-theme-primary-color-text-window-title: #ccaa00;
+	--gg-theme-primary-color-text-window-1: #ebebd2;
+	--gg-theme-primary-color-text-window-2: #ddd8d5;
+
+	--gg-theme-primary-color-text-content-header: #E6DAA1;
+
+	/* Alternate Window */
+	--gg-theme-color-background-gradient-alternate-1: #1a0066bf; /* Deep Violet */
+	--gg-theme-color-background-gradient-alternate-2: #20004dbf; /* Deep Violet */
+	--gg-theme-texture-background-alternate-top-right: url(../assets/art/gg-texture-distress-corner-top-right.webp);
+	--gg-theme-texture-background-alternate-bottom-left: url(../assets/art/gg-texture-distress-corner-bottom-left.webp);
+	--gg-theme-background-gradient-alternate-bottom:
+	linear-gradient(to bottom,
+		var(--gg-theme-color-background-gradient-alternate-1), var(--gg-theme-color-background-gradient-alternate-2)),
+	var(--gg-theme-texture-background-alternate-top) top right no-repeat,
+	var(--gg-theme-texture-background-alternate-bottom) bottom left no-repeat;
+
+	--gg-theme-alternate-color-background-overlay: #40009940;
+
+	--gg-theme-alternate-color-border-window: #ffd500;
+	--gg-theme-alternate-color-border-seperator: #ea80ff;
+
+	--gg-theme-alternate-color-text-window-title: #ccaa00;
+	--gg-theme-alternate-color-text-window-1: #ebebd2;
+	--gg-theme-alternate-color-text-window-2: #ddd8d5;
+
+	--gg-theme-alternate-color-text-content-header: #E6DAA1;
+
+	/* Primary Button */
+	--gg-theme-primary-color-background-button: #190066;
+	--gg-theme-primary-color-background-button-hover: #190066;
+	--gg-theme-primary-color-background-button-active: #470a5c;
+
+	--gg-theme-primary-color-border-button: #ccaa00;
+	--gg-theme-primary-color-border-button-hover: #ff00d4;
+	--gg-theme-primary-color-border-button-active: #DAA1E6;
+
+	--gg-theme-primary-font-button: 'Inknut Antiqua', serif;
+	--gg-theme-primary-color-text-buttton: #E6DAA1;
+	--gg-theme-primary-color-text-buttton-hover: #FF8000;
+	--gg-theme-primary-color-text-buttton-active: #F2EEDA;
+
+	/* Alternate Button */
+	--gg-theme-alternate-color-background-button: #470a5c;
+	--gg-theme-alternate-color-background-button-hover: #470a5c;
+	--gg-theme-alternate-color-background-button-active: #400d73;
+
+	--gg-theme-alternate-color-border-button: #ff00d4;
+	--gg-theme-alternate-color-border-button-hover: #00ff2a;
+	--gg-theme-alternate-color-border-button-active: #a38529;
+
+	--gg-theme-alternate-font-button: 'Inknut Antiqua', serif;
+	--gg-theme-alternate-color-text-buttton: #ebcb72;
+	--gg-theme-alternate-color-text-buttton-hover: #00ff2a;
+	--gg-theme-alternate-color-text-buttton-active: #ebcb72;
+
+	/* In-Line Button */
+	--gg-theme-inline-color-background-button: #7877E7;
+	--gg-theme-inline-color-background-button-hover: #CCC6B7;
+	--gg-theme-inline-color-background-button-active: #470a5c;
+
+	--gg-theme-inline-color-border-button: #18004d;
+	--gg-theme-inline-color-border-button-hover: #31136c;
+	--gg-theme-inline-color-border-button-active: #ff00d4;
+
+	--gg-theme-inline-font-button: 'Inknut Antiqua', serif;
+	--gg-theme-inline-color-text-buttton: #23232b;
+	--gg-theme-inline-color-text-buttton-hover: #23232b;
+	--gg-theme-inline-color-text-buttton-active: #F3F0E7;
+
+	/* Forms & Subwindows */
+	--gg-theme-primary-color-background-input: ;
+	--gg-theme-primary-color-background-select-option: ;
+
+	--gg-theme-primary-color-border-form-fieldset: ;
+	--gg-theme-primary-color-border-form-input: ;
+	--gg-theme-primary-color-border-form-focus-outlind: #403175;
+
+	--gg-theme-primary-color-text-form-label: #ddd8d5;
+	--gg-theme-primary-color-text-form-note: #f5d883;
+	--gg-theme-primary-color-text-form-placeholder: ;
+	--gg-theme-primary-color-text-form-input: ;
+	--gg-theme-primary-color-text-select-option: ;
+
+	/* Text Elements */
+	--gg-theme-font-header-1: 'EB Garamond', serif;
+	--gg-theme-color-text-header-1: #ccaa00;
+	--gg-theme-font-header-2: 'Average', serif ;
+	--gg-theme-color-text-header-2: #ccaa00;
+	--gg-theme-font-subheader-1: 'Domine', 'serif';
+	--gg-theme-color-text-subheader-1: #ccaa00;
+	--gg-theme-font-subheader-2: 'EB Garamond', serif;;
+	--gg-theme-color-text-subheader-2: #ccaa00;
+	--gg-theme-font-subheader-3: 'Inknut Antiqua', serif ;;
+	--gg-theme-color-text-subheader-3: #ccaa00;
+	--gg-theme-font-paragraph-1: 'Libre Franklin', serif;
+	--gg-theme-color-text-paragraph-1: #ccaa00;
+	--gg-theme-font-paragraph-2: 'Alice', serif;
+	--gg-theme-color-text-paragraph-2: #ccaa00;
+
+	/* 	*	*	*	*	*	*	*	*	End Variable Definition *	*	*	*	*	*	*	*	* 	*/
+
+
+	--logo-font: 'New Rocker';
+	--header-font: 'Domine';
+	--body-font: 'Libre Franklin';
+	--gg-theme-color-background-1: rgba(26, 0, 102, 0.75); /* Deep Violet */
+	--gg-theme-color-background-2: rgba(32, 0, 77, 0.75);
+	--gg-theme-color-background-3: #400d73bf;
+	--gg-theme-color-background-4: rgba(72, 10, 92, 0.75); /* Magenta */
+
+	--gg-color-theme-bg-primary-3: #400d73;
+	--gg-color-theme-accent-secondary-4: #006600;
+
+	--color-theme-accent-primary-1: #ff00d4;
+	--color-theme-accent-primary-2: #ff6a00;
+	--color-theme-accent-primary-3: #ffd500;
+	--color-theme-accent-primary-4: #ea80ff;
+
+	--border-theme-primary-1: 1px solid var(--color-theme-accent-primary-1); /* Primary Window Border */
+	--border-theme-primary-2: 1px solid var(--color-theme-accent-primary-3); /* Window Header Border */
+	--border-theme-primary-3: 1px solid var(--color-theme-accent-primary-3); /* Tool Tip */
+	--border-theme-primary-4: 1px solid var(--color-theme-accent-primary-4);
+
+	--color-theme-text-heading: #FFD500;  /* headings and titles */
+	--color-theme-text-subheader: #E6DAA1; /* subheadings and secondary text*/
+	--color-theme-text-primary-1: #F2EEDA; /* main body text */
+	--color-theme-text-primary-2: #00ff2a;
+	--color-theme-text-primary-3: #FF8000; /* tooltip */
+	--color-theme-text-primary-4: #DAA1E6; /* Editor Text */
+
+	/* Secondary Elements */
+
+	--background-theme-secondary: url(../assets/art/gg-texture-distress-corner-top-right.webp) no-repeat top right,
+	url(../assets/art/gg-texture-distress-corner-bottom-left.webp) no-repeat bottom left,
+	var(--color-theme-bg-primary-3); /* Tooltip Background */
+
+	--color-theme-bg-secondary-1: #400d73; /* Button Default     */
+	--color-theme-bg-secondary-2: #cca3f5; /* Button Hover      */
+	--color-theme-bg-secondary-3: #ccaa00; /* Button Active    */
+	--color-theme-bg-secondary-4: #470a5c; /* In-Line Buttons */
+
+	--color-theme-accent-secondary-1: #ff00d4;
+	--color-theme-accent-secondary-2: #ff6a00;
+	--color-theme-accent-secondary-3: #400099;
+	--color-theme-accent-secondary-4: #006600;
+
+	--border-theme-secondary-1: 1px solid var(--color-theme-secondary-accent-1); /* Button Default Border  */
+	--border-theme-secondary-2: 1px solid var(--color-theme-secondary-accent-2); /* Button Hover Border   */
+	--border-theme-secondary-3: 1px solid var(--color-theme-secondary-accent-3); /* Button Active Border */
+	--border-theme-secondary-4: 1px solid var(--color-theme-secondary-accent-1); /* In-Line Roll Border */
+
+	--color-theme-text-secondary-1: #a38529; /* Button Default       */
+	--color-theme-text-secondary-2: #0f052e; /* Button Hover        */
+	--color-theme-text-secondary-3: #150449; /* Button Active      */
+	--color-theme-text-secondary-4: #ddd8d5; /* In-Line Roll Text */
+
+/* bright blue hsl(200, 100%, 50) */
+
+	--color-theme-bg-tertiary-1: hsl(50, 20%, 75%); /* Shared BG Gradient */
+	--color-theme-bg-tertiary-2: hsl(50, 20%, 75%); /* Standard Message Gradient */
+	--color-theme-bg-tertiary-3: hsl(50, 20%, 75%); /* Whisper Message Gradient */
+	--color-theme-bg-tertiary-4: hsl(50, 20%, 75%); /* Blind Message Gradient */
+
+	--color-theme-text-tertiary-1: hsl(280, 50, 15); /* Placeholder Text */
+	--color-theme-text-tertiary-2: hsl(270, 20, 10); /* Chat Area Text */
+	--color-theme-text-tertiary-3: hsl(270, 20, 10); /* Chat Card Text */
+	--color-theme-text-tertiary-4: hsl(270, 20, 10); /* Chat Card Description */
+
+
+	--color-theme-bg-compendium-actor: hsla(225, 100%, 70%, 0.133);
+	--color-theme-bg-compendium-item: hsla(270, 20%, 60%, 0.133);
+	--color-theme-bg-compendium-macro: hsla(200, 100%, 70%, 0.133);
+	--color-theme-bg-compendium-journal: hsla(300, 100%, 50%, 0.133);
+	--color-theme-bg-compendium-playlist: hsla(50, 100%, 50%, 0.133);
+	--color-theme-bg-compendium-scene: hsla(120, 100%, 20%, 0.133);
+	--color-theme-bg-compendium-adventure: hsla(0, 100%, 50%, 0.133);
+
+	--color-theme-folder-1-1: hsl(260, 100%, 20%);
+	--color-theme-folder-1-2: hsl(260, 40%, 40%);
+	--color-theme-folder-1-3: var(--color-theme-folder-1-1);
+	--color-theme-folder-1-4: var(--color-theme-folder-1-2);
+
+	--color-theme-folder-2-1: hsl(300, 100%, 20%);
+	--color-theme-folder-2-2: hsl(300, 40%, 40%);
+	--color-theme-folder-2-3: var(--color-theme-folder-2-1);
+	--color-theme-folder-2-4: var(--color-theme-folder-2-2);
+
+	--color-theme-folder-3-1: hsl(25, 100%, 30%);
+	--color-theme-folder-3-2: hsl(25, 80%, 60%);
+	--color-theme-folder-3-3: var(--color-theme-folder-3-1);
+	--color-theme-folder-3-4: var(--color-theme-folder-3-2);
+
+	--color-theme-folder-4-1: hsl(90, 80%, 15%);
+	--color-theme-folder-4-2: hsl(90, 60%, 30%);
+	--color-theme-folder-4-3: var(--color-theme-folder-4-1);
+	--color-theme-folder-4-4: var(--color-theme-folder-4-2);
+}
