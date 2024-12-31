@@ -1,0 +1,106 @@
+Tool Overview
+
+Overlapping Tools
+
+Compound Checks
+
+## Artistic Tools
+Artist's Tools are used primarily by characters to create art. If you have proficiency with a given artist's tool, you can roll performance checks to perform or create art with the specific artist's tool. If you attempt a performance check with an artist's tool you are not proficient with, you either have disadvantage on the check or automatically fail (at the GM's discretion).
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.Ok4RnynRtma0H7op]{Calligrapher's Tools}
+
+A calligrapher can write fancy letters.
+
+*World Lore*
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.qZe6ua1j3TtX3QGv]{Painting and Drawing Supplies}
+
+Might be a generalized set or a specialized set of tools for a particular medium, such as oil painting or charcoal drawing. While an artist may not be experiences with all form of visual art, they can typically pick up other forms quickly. On the other hand, a charcoal artist may need to practice first before comfortably using watercolor paint.
+
+*World Lore*
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.xeQjROnZXvLBdn5P]{Carving Tools}
+
+Includes all forms of carving, including stone and wood, as well as gem-cutting.
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.xeQjROnZXvLBdn5P]{Sculpting Tools}
+
+Includes both pottery and glassblowing.
+
+*World Lore*
+
+### Musical Instrument
+
+There are four broad categories of musical instrument, each requiring their own proficiency:
+
+#### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.tsBFhfjZxuCTJ2Vk]{Wind}
+#### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.8zRXuZl1ZtC7liMl]{String}
+#### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.EkU5lFWu9EHTVj8c]{Reed}
+#### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.wtL670j6tzOntm0o]{Drum}
+
+*World Lore*
+
+## Industrious Tools
+
+Tools than can be used to turn raw materials into useful products.
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.JKQfgRGnf1cRbwGP]{Smith's Tools}
+
+A smith uses metal to create tools, armor, and weapons.
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.bdSJX0T16DYBq4i9]{Stitcher's Tools}
+
+Includes Leatherworking, Cobbling, and Tailoring.
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.55gG0S6n5f0tsMNa]{Builder's Tools}
+
+Includes carpentry and masonry.
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.bUlX8rP5scfkKB7V]{Tinker's Tools}
+
+A tinker fixes damaged objects and creates small gadgets of miscellaneous use, as well as setting cut gems and making jewelry.
+
+### Consumable Tools
+A subset of Industrious Tools dedicated to making food, drink, potions, medicines, and other items meant for consumption.
+
+#### @UUID[Compendium.elkan5e.elkan5e-mundane-items.5TRgfcXqzHRvcYql]{Alchemist's Tools}
+
+An alchemist can harvest magical reagents from monsters and use them to create components of magical items.
+
+#### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.SPw4mJ4H8oF1uoDL]{Brewer's Tools}
+
+A brewer can use various materials to make alcoholic beverages.
+
+#### @UUID[Compendium.elkan5e.elkan5e-mundane-items.oUY4OJSPtFBSuMJ5]{Cooking's Utensils}
+
+A cook can turn organic material into food that can keep people alive and healthy.
+
+## Exploration Tools
+
+Tools designed to aid in traveling, harvesting, or gathering
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.yfdLSw9JjVkjKetY]{Cartographer's Tools}
+
+*World Lore*
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.TC3tnEzGrrLoIusn]{Herb Gathering Kit}
+
+Herbalism tools include a variety of instruments such as clippers, as well as a variety of storage pouches, vials, and other containers to assist in gathering and storing plant specimens.
+
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.nTzx6meHF4zqrp5f]{Butchering Tools}
+
+Butchering Tools allow for the field rendering of creatures to gather crafting components both magical and mundane.
+
+## Tools of the Trade
+Tools often used in more illicit trades.
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.NyNivugqNxM9ItgQ]{Thieves' Tools}
+This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.YDRZ7cP6rR9NCSaf]{Disguise Kit}
+This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.PGHsgtscRcDrKt6j]{Poisoner's Tools}
+A poisoner’s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.dFa31G5pfZ3FGcjk]{Forgery Kit}
+This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.wreeUSYgtwKxgBne]{Cards}
+### @UUID[Compendium.garhis-grotto-core.gg-reference-item.Item.7SaVo2uvojHTT1KR]{Dice}
+
